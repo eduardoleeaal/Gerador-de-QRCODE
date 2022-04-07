@@ -23,7 +23,7 @@ if 'https://' not in link:
     link = 'https://'+link
 
 url = pyqrcode.create(link)
-url.png(nome+'.png', scale = 8) 
+url.png(nome+'.png', scale = 5) 
 
 img = Image.open(nome+'.png')
 img.show()
