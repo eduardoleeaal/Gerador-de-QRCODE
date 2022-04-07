@@ -1,4 +1,3 @@
-# Import QRCode from pyqrcode
 import pyqrcode                                 # pyqrcode
 import png                                      # pypng
 from PySimpleGUI import PySimpleGUI as sg
